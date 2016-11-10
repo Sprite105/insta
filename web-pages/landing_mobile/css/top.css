@@ -1,0 +1,261 @@
+/*подключения шрыфтов и общие стили*/
+@font-face
+{
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-style: normal;
+
+    src: url('../fonts/Proxima Nova Bold.eot');
+    src: local('☺'), url('../fonts/Proxima Nova Bold.woff') format('woff'),
+    url('../fonts/Proxima Nova Bold.ttf') format('truetype'),
+    url('../fonts/Proxima Nova Bold.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Proxima Nova Regular.eot');
+    src: local('☺'), url('../fonts/Proxima Nova Regular.woff') format('woff'),
+    url('../fonts/Proxima Nova Regular.ttf') format('truetype'),
+    url('../fonts/Proxima Nova Regular.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Roboto-Regular.eot');
+    src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype'),
+    url('../fonts/Roboto-Regular.svg') format('svg');
+}
+
+
+body
+{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: normal;
+}
+
+.container
+{
+    font-size: 1em;
+
+    overflow: hidden;
+
+    width: 64.2487%;
+    min-width: 320px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.icon
+{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+
+    border-radius: 5px;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #fff;
+}
+
+/* конец общих стилей*/
+.top
+{
+    overflow: hidden;
+    background-image: url('../img/top-background.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #3a38a6;
+}
+
+.top h1
+{
+    font-weight: bold;
+}
+.top h4
+{
+    font-weight: normal;
+}
+
+.top nav
+{
+    float: right;
+}
+
+.top nav > a
+{
+    line-height: 40px;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.top nav > a:hover
+{
+    color: #332147;
+    background-color: #fff;
+}
+
+.top header
+{
+    line-height: 75px;
+    overflow: hidden;
+}
+
+.content
+{
+    float: right;
+    overflow: hidden;
+
+    box-sizing: border-box;
+    width: 76.612%;
+    max-width: 950px;
+    margin-top: 90px;
+    padding-bottom: 90px;
+}
+
+.content img
+{
+    float: left;
+
+    width: 30%;
+}
+
+.title
+{
+    float: right;
+
+    box-sizing: border-box;
+    width: 63.15%;
+    max-width: 610px;
+    padding-top: 60px;
+    padding-left: 50px;
+
+    color: #fff;
+}
+
+.shop-button
+{
+    line-height: 50px;
+
+    display: inline-block;
+
+    width: 32.78%;
+    min-width: 100px;
+    max-width: 200px;
+    margin-right: 10px;
+
+    text-align: center;
+
+    color: #332147;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+/*Мобильние устройства*/
+@media (min-width: 320px) and (max-width: 920px)
+{
+    .top {
+        background-size: cover;
+    }
+    
+    .container
+    {
+        font-size: .7em;
+
+        width: 90%;
+    }
+
+    .top nav > a
+    {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .content
+    {
+        float: right;
+        overflow: hidden;
+
+        box-sizing: border-box;
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .title
+    {
+        float: left;
+
+        box-sizing: border-box;
+        max-width: 610px;
+        padding: 0;
+        padding-left: 10px;
+
+        color: #fff;
+    }
+
+    .shop-button
+    {
+        display: block;
+
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+/*Планшети и малый екраны*/
+@media (min-width: 920px) and (max-width: 1280px)
+{
+    .top {
+        background-size: cover;
+    }
+
+    .container
+    {
+        font-size: .8em;
+
+        width: 60%;
+    }
+
+    .top nav > a
+    {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .content
+    {
+            float: none;
+            margin: 0 auto;
+            overflow: hidden;
+            box-sizing: border-box;
+            width: 90%;
+            margin-top: 40px;
+    }
+
+    .title
+    {
+        float: left;
+
+        box-sizing: border-box;
+        max-width: 610px;
+        padding: 0;
+        padding-left: 50px;
+
+        color: #fff;
+    }
+}

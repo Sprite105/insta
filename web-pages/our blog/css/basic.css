@@ -1,0 +1,356 @@
+/*Css Reset*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video
+{
+    font: inherit;
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section
+{
+    display: block;
+}
+body
+{
+    line-height: 1;
+}
+ol,
+ul
+{
+    list-style: none;
+}
+blockquote,
+q
+{
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+    content: '';
+    content: none;
+}
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/*подключения шрыфтов и общие стили*/
+@font-face
+{
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-style: normal;
+
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: normal;
+
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: italic;
+
+    src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Proximanova Light';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/proximanova-light.eot');
+    src: local('☺'), url('../fonts/proximanova-light.woff') format('woff'), url('../fonts/proximanova-light.ttf') format('truetype'),
+    url('../fonts/proximanova-light.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'MyriadProRegular';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/MyriadProRegular.eot');
+    src: url('../fonts/MyriadProRegular.eot?#iefix')format('embedded-opentype'),
+    url('../fonts/MyriadProRegular.woff') format('woff'),
+    url('../fonts/MyriadProRegular.ttf') format('truetype');
+}
+
+
+@font-face
+{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+
+    src: url('../fonts/OpenSans-Semibold.ttf') format('truetype');
+}
+
+
+body
+{
+    font-family: 'Proximanova Light', sans-serif;
+    font-weight: normal;
+    position: relative;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #fff;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+a.get-started-button:hover
+{
+    text-decoration: none;
+}
+
+.container
+{
+    overflow: hidden;
+
+    width: 88.88%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 200;
+
+    text-align: center;
+
+    color: rgb(163, 164, 167);
+}
+
+h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 40px;
+
+    color: #000;
+}
+
+section
+{
+    overflow: hidden;
+}
+
+
+.get-started-button
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 45px;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    max-width: 245px;
+    margin-left: 20px;
+    padding: 0 12px;
+
+    cursor: pointer;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #fc5a01;
+}
+
+.get-started-button:hover
+{
+    background-color: #b44911;
+}
+
+.button-go-up
+{
+    line-height: 50px;
+
+    position: fixed;
+    top: 80%;
+    right: 50px;
+
+    display: block;
+
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+    text-align: center;
+
+    border-radius: 5px;
+    background-color: #fc5a01;
+}
+
+.button-go-up:after
+{
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    margin-bottom: -5px;
+
+    content: '';
+    transform: rotate(-45deg);
+
+    border-top: #fff 3px solid;
+    border-right: #fff 3px solid;
+}
+
+
+.logo
+{
+    display: inline-block;
+    padding-left: 60px;
+    min-height: 50px;
+    float: left;
+    background: url(../img/logo.png) no-repeat center left;
+    background-size: 50px auto;
+}
+
+ .logo > p
+{
+    visibility: hidden;
+}
+
+header .logo:hover > p
+{
+    visibility: visible;
+}

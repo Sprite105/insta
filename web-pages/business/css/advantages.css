@@ -1,0 +1,73 @@
+.advantages
+{
+    padding-top: 125px;
+}
+
+
+.advantages .content
+{
+    overflow: hidden;
+
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    margin-bottom: 125px;
+
+    text-align: left;
+}
+
+.advantages .content img
+{
+    width: 25%;
+    max-width: 275px;
+    max-height: 495px;
+    margin: 25px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0, .2);
+}
+
+
+.advantages .content:nth-child(even) img
+{
+    float: right;
+}
+
+.advantages .content:nth-child(odd) img
+{
+    float: left;
+}
+
+.advantages .content .discription
+{
+    float: left;
+
+    box-sizing: border-box;
+    max-width: 500px;
+    padding-top: 100px;
+}
+
+.advantages .content:nth-child(odd) .discription
+{
+    float: right;
+}
+
+.advantages .content h1
+{
+    font-size: 2.25em;
+    line-height: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+    text-align: left;
+
+    color: #000;
+}
+
+.advantages .content p
+{
+    font-size: 1.125em;
+    line-height: 1.5em;
+
+    color: rgb(163, 164, 167);
+}

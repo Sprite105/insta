@@ -1,0 +1,89 @@
+.seotext
+{
+    padding-bottom: 170px;
+}
+
+.seotext h1 {
+	font-size: 2.25em;
+	color: #000;
+	line-height: 60px;
+}
+.seotext h2
+{
+	color: rgb(135, 135, 135);
+	font-size: 1.5em;
+	font-weight: 400;
+	max-width: 875px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	text-align: center;
+	line-height: 30px;
+}
+
+.seotext,
+.seotext .container
+{
+    overflow: visible;
+    margin-top: 90px;
+}
+
+.seotext .row
+{
+    display: table;
+
+    height: 500px;
+}
+
+.seotext .row:after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+.seotext .row img
+{
+    float: left;
+
+    width: 500px;
+
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+}
+
+.seotext .row .description
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5;
+
+    display: table-cell;
+
+    box-sizing: border-box;
+    width: calc(100% - 500px);
+    padding-right: 150px;
+
+    vertical-align: middle;
+
+    color: rgb(109, 109, 109);
+}
+
+
+.seotext .row:nth-child(odd) img,
+.seotext .row:nth-child(even) .description
+{
+    float: right;
+
+    padding-right: 0;
+
+    text-align: right;
+}
+
+.seotext .row:nth-child(even) .description
+{
+    float: none;
+
+    padding-right: 0;
+    padding-left: 70px;
+}

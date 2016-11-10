@@ -1,0 +1,57 @@
+.statistic
+{
+    color: rgba(255, 255, 255, .502);
+    background-color: #3a38a7;
+}
+
+.statistic p
+{
+    font-size: 1em;
+
+    margin: 0;
+}
+
+.statistic ul
+{
+    overflow: hidden;
+
+    box-sizing: border-box;
+    padding: 0;
+
+    list-style-type: none;
+}
+.statistic li
+{
+    font-family: 'Roboto', sans-serif;
+
+    display: block;
+
+    width: 60%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.statistic .amount
+{
+    font-size: 4em;
+
+    margin-top: 70px;
+    margin-bottom: 0;
+
+    color: #fff;
+}
+
+.statistic .elucidation
+{
+    font-weight: 100;
+
+    box-sizing: border-box;
+
+    letter-spacing: 1px;
+}
+
+.statistic p:last-child
+{
+    margin-bottom: 70px;
+}

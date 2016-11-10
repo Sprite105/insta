@@ -1,0 +1,143 @@
+footer
+{
+    font-family: 'Roboto Light', sans-serif;
+
+    overflow: hidden;
+
+    padding-top: 140px;
+
+    color: #fff;
+    background-color: #2a2c2d;
+}
+
+.copyright
+{
+    float: left;
+
+    max-width: 340px;
+}
+
+footer h1
+{
+    margin-bottom: 25px;
+
+    text-align: left;
+
+    color: #fff;
+}
+
+footer .text-copyright
+{
+    line-height: 1.3em;
+
+    float: left;
+
+    margin-top: 20px;
+
+    color: rgb(163, 164, 167);
+}
+
+.links
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+
+    float: right;
+
+    width: 145px;
+}
+
+footer a
+{
+    line-height: 35px;
+
+    display: block;
+    float: none;
+
+    width: 100%;
+
+    color: rgb(163, 164, 167);
+}
+
+.social
+{
+    font-family: 'Roboto Light', sans-serif;
+
+    float: right;
+
+    width: 320px;
+}
+
+.social h3,
+.social a
+{
+    padding-left: 45px;
+
+    background-repeat: no-repeat;
+}
+
+.social a
+{
+    line-height: 50px;
+}
+
+.vkontakte
+{
+    background-image: url('../img/vk.png');
+    background-position: left center;
+}
+
+.facebook
+{
+    background-image: url('../img/facebook.png');
+    background-position: 5px center;
+}
+
+.twitter
+{
+    background-image: url('../img/twitter.png');
+    background-position: left center;
+}
+
+
+.container-language-rights
+{
+    line-height: 90px;
+
+    clear: both;
+
+    margin-top: 85px;
+
+    border-top: #393e40 1px solid;
+}
+
+
+.container-language-rights p
+{
+    display: inline-block;
+}
+
+.container-language-item
+{
+    display: inline-block;
+    float: right;
+}
+
+.container-language-item a
+{
+    padding-left: 35px;
+}
+
+.container-language-item .english-icon
+{
+    background-image: url('../img/eng_icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.container-language-item .russian-icon
+{
+    background-image: url('../img/rus_icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}

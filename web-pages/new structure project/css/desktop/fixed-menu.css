@@ -1,0 +1,39 @@
+.fixed-menu {
+	position: relative;
+	right: 75px;
+	border-right: #e3e3e3 1px solid;
+	max-width: 125px;
+	float: right;
+	box-sizing: border-box;
+}
+
+.fixed-menu a {
+	color: rgb(163, 164, 167);
+	cursor: pointer;
+	display: table;
+	height: 50px;
+	text-align: right;
+	box-sizing: border-box;
+	padding-right: 15px;
+	min-width: 125px;
+	border-right: transparent 2px solid;
+}
+
+.fixed-menu input {
+	display: none;
+}
+
+.fixed-menu a:hover {
+	text-decoration: none;
+}
+
+
+.fixed-menu a.active {
+	color: #00b7fe;
+	border-right: #00b7fe 2px solid;
+}
+
+.fixed-menu a span {
+	display: table-cell;
+	vertical-align: middle;
+}

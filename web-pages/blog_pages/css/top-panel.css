@@ -1,0 +1,139 @@
+.top-panel
+{
+    padding-top: 135px;
+    padding-bottom: 10px;
+    min-height: 300px;
+    box-sizing: border-box;
+    min-width: 880px;
+    background-color: #2b3468;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header
+{
+
+    position: fixed;
+    
+    box-sizing: border-box;
+    width: 100%;
+
+
+    background-color: rgba(0,0,0, .08);
+
+    line-height: 100px;
+
+    text-align: right;
+}
+
+header  nav,
+.get-started-button
+{
+    position: static;
+
+    display: inline-block;
+
+    max-width: 50%;
+}
+
+header  nav
+{
+    position: static;
+
+    display: inline-block;
+
+    max-width: 50%;
+}
+
+header  nav > a
+{
+    margin-right: 30px;
+}
+
+header a
+{
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+
+.get-started-button
+{
+    font-size: 1em;
+    line-height: 45px;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    max-width: 245px;
+    margin-left: 20px;
+    padding: 0 12px;
+
+    cursor: pointer;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #fc5a01;
+
+}
+
+.get-started-button:hover
+{
+    background-color: #b44911;
+}
+.top-panel h1
+{
+    font-size: 3em;
+
+    max-width: 510px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.mobile-menu
+{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
+    display: none;
+    float: right;
+
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+
+    cursor: pointer;
+
+    background-color: #fc5a01;
+}
+
+
+header .logo
+{
+    display: inline-block;
+    float: left;
+
+    padding-left: 60px;
+
+    background: url(../img/logo.png) no-repeat center left;
+    background-size: 50px auto;
+}
+
+header .logo > p
+{
+    visibility: hidden;
+}
+
+header .logo:hover > p
+{
+    visibility: visible;
+}

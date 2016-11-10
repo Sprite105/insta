@@ -1,0 +1,103 @@
+.advantages h2
+{
+    font-size: 1.5em;
+    font-weight: normal;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    text-align: center;
+
+    color: rgb(86, 86, 86);
+}
+
+.advantages ul
+{
+    font-size: 1em;
+
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+
+    color: rgb(95, 112, 122);
+}
+
+.advantages li p
+{
+    font-size: 1.3em;
+}
+
+.advantages .elucidation
+{
+    font-size: 1em;
+}
+
+.advantages ul li
+{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+
+    text-align: center;
+}
+
+.advantages .icon-rocket
+{
+    padding-top: 90px;
+
+    background: url('../img/rocket.png') center top no-repeat;
+}
+
+.advantages .icon-automaticity
+{
+    padding-top: 90px;
+
+    background: url('../img/automaticity.png') center top no-repeat;
+}
+
+.advantages .icon-shield
+{
+    padding-top: 90px;
+
+    background: url('../img/shield.png') center top no-repeat;
+}
+
+.advantages .icon-detective
+{
+    padding-top: 90px;
+
+    background: url('../img/detective.png') center top no-repeat;
+}
+
+.advantages .icon-bonus
+{
+    padding-top: 90px;
+
+    background: url('../img/bonus.png') center top no-repeat;
+}
+
+.advantages .icon-support
+{
+    padding-top: 90px;
+
+    background: url('../img/support.png') center top no-repeat;
+}
+
+.advantages .icon-flexibility
+{
+    padding-top: 90px;
+
+    background: url('../img/flexibility.png') center top no-repeat;
+}
+
+.advantages .icon-only-people
+{
+    padding-top: 90px;
+
+    background: url('../img/only-people.png') center top no-repeat;
+}

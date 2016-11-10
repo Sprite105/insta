@@ -1,0 +1,381 @@
+/*Css Reset*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video
+{
+    font: inherit;
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section
+{
+    display: block;
+}
+body
+{
+    line-height: 1;
+}
+ol,
+ul
+{
+    list-style: none;
+}
+blockquote,
+q
+{
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+    content: '';
+    content: none;
+}
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/*подключения шрыфтов и общие стили*/
+@font-face
+{
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-style: normal;
+
+    src: url('../fonts/Proxima Nova Bold.eot');
+    src: local('☺'), url('../fonts/Proxima Nova Bold.woff') format('woff'),
+    url('../fonts/Proxima Nova Bold.ttf') format('truetype'),
+    url('../fonts/Proxima Nova Bold.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Proxima Nova Regular.eot');
+    src: local('☺'), url('../fonts/Proxima Nova Regular.woff') format('woff'),
+    url('../fonts/Proxima Nova Regular.ttf') format('truetype'),
+    url('../fonts/Proxima Nova Regular.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Roboto-Regular.eot');
+    src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype'),
+    url('../fonts/Roboto-Regular.svg') format('svg');
+}
+
+
+body
+{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: normal;
+    /*по дизайну*/
+    /*TODO: Подумать сделать чтобы это был margin после последнего елемента*/
+
+    padding-bottom: 328px;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #fff;
+}
+
+header a:hover
+{
+    text-decoration: underline;
+}
+
+.container
+{
+    font-size: 1.1em;
+
+    overflow: hidden;
+
+    width: 100%;
+    margin: 0 auto;
+    margin: 0;
+}
+
+main
+{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 880px;
+    margin-top: 54px;
+    padding-right: 6%;
+    padding-left: 6%;
+    margin: 0 auto;
+}
+
+aside
+{
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding-top: 40px;
+    margin: 0 auto;
+
+    background-color: #f6f6f6;
+}
+
+aside:last-child
+{
+    background-color: #fff;
+}
+
+
+article h1,
+article h2,
+article h3,
+article h4,
+article p
+{
+    width: 100%;
+}
+.aside-content
+{
+    z-index: 101;
+    top: 0;
+
+    width: 100%;
+}
+
+article p,
+aside p
+{
+    line-height: 1.33em;
+
+    margin-top: 35px;
+}
+
+article h1,
+aside h1
+{
+    font-size: 2em;
+    font-weight: bold;
+
+    margin-top: 40px;
+
+    color: #394066;
+}
+
+article p
+{
+    margin-bottom: 12px;
+}
+
+article img:last-child
+{
+    margin-top: 50px;
+}
+
+article .data,
+article a
+{
+    color: rgb(140, 149, 163);
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.button-download
+{
+    line-height: 48px;
+
+    display: inline-block;
+
+    margin: 25px 0;
+    padding: 0 30px;
+
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+/*TODO: Поменять название*/
+.button-orange
+{
+    background-color: #dc5a16;
+}
+/*TODO: Поменять название*/
+.button-blue
+{
+    background-color: #3384fc;
+}
+
+aside .banner
+{
+    position: relative;
+
+    display: none;
+
+    height: 450px;
+
+    background: url(../img/Rectangle-banana.png);
+}
+
+.banner .button-download
+{
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    left: 0;
+
+    width: 50%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+article a
+{
+    line-height: 1.33em;
+
+    text-decoration: underline;
+}
+
+.data:first-child
+{
+    margin: 24px 0;
+}
+
+.data
+{
+    margin: 12px 0;
+}
+
+.blog-title
+{
+    line-height: 2em;
+}
+
+aside h1
+{
+    font-size: 2.5em;
+}
+.aside-content
+{
+    max-width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    padding-right: 6%;
+    padding-left: 6%;
+    box-sizing: border-box;
+}
+
+.aside-content .banner
+{
+    display: none;
+}

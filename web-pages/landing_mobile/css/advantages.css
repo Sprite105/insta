@@ -1,0 +1,116 @@
+.advantages h2
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    text-align: center;
+}
+
+.advantages ul
+{
+    font-size: 1em;
+
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+
+    color: rgb(95, 112, 122);
+}
+
+.advantages ul li
+{
+    float: left;
+
+    box-sizing: border-box;
+    width: 25%;
+    margin-bottom: 90px;
+
+    text-align: center;
+}
+
+.advantages p.elucidation
+{
+    padding: 0 2%;
+}
+
+.advantages .icon-rocket
+{
+    padding-top: 90px;
+
+    background: url('../img/rocket.png') center top no-repeat;
+}
+
+.advantages .icon-automaticity
+{
+    padding-top: 90px;
+
+    background: url('../img/automaticity.png') center top no-repeat;
+}
+
+.advantages .icon-shield
+{
+    padding-top: 90px;
+
+    background: url('../img/shield.png') center top no-repeat;
+}
+
+.advantages .icon-detective
+{
+    padding-top: 90px;
+
+    background: url('../img/detective.png') center top no-repeat;
+}
+
+.advantages .icon-bonus
+{
+    padding-top: 90px;
+
+    background: url('../img/bonus.png') center top no-repeat;
+}
+
+.advantages .icon-support
+{
+    padding-top: 90px;
+
+    background: url('../img/support.png') center top no-repeat;
+}
+
+.advantages .icon-flexibility
+{
+    padding-top: 90px;
+
+    background: url('../img/flexibility.png') center top no-repeat;
+}
+
+.advantages .icon-only-people
+{
+    padding-top: 90px;
+
+    background: url('../img/only-people.png') center top no-repeat;
+}
+
+/*Мобильние устройства*/
+@media (min-width: 320px) and (max-width: 920px)
+{
+    .advantages ul li
+    {
+        float: left;
+
+        width: 50%;
+        margin-bottom: 90px;
+
+        text-align: center;
+    }
+
+    .advantages ul
+    {
+        font-size: 1.1em;
+
+        list-style-type: none;
+
+        color: rgb(95, 112, 122);
+    }
+}

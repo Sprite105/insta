@@ -1,0 +1,48 @@
+.our-advantages
+{
+    text-align: center;
+
+    color: rgb(163, 164, 167);
+}
+
+.our-advantages h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.our-advantages ol > li
+{
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    padding-top: 45px;
+    padding-right: 7%;
+    padding-left: 7%;
+
+    vertical-align: top;
+}
+
+.our-advantages ol > li:nth-child(1)
+{
+    background-image: url('../img/resourse.png');
+}
+.our-advantages ol > li:nth-child(2)
+{
+    background-image: url('../img/diamond.png');
+}
+.our-advantages ol > li:nth-child(3)
+{
+    background-image: url('../img/bonus.png');
+}
+.our-advantages ol > li:nth-child(4)
+{
+    background-image: url('../img/heart.png');
+}
+.our-advantages ol > li:nth-child(5)
+{
+    background-image: url('../img/adaptive.png');
+}
+.our-advantages ol > li:nth-child(6)
+{
+    background-image: url('../img/add-friend.png');
+}

@@ -1,0 +1,44 @@
+.only-here
+{
+    margin-bottom: 30px;
+
+    color: rgb(163, 164, 167);
+}
+
+.only-here h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.only-here h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.only-here ol > li
+{
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 7%;
+    padding-left: 7%;
+
+    vertical-align: top;
+}
+
+.only-here ol > li:nth-child(1)
+{
+    background-image: url('../img/automation.png');
+}
+
+.only-here ol > li:nth-child(2)
+{
+    background-image: url('../img/traffic.png');
+}
+
+.only-here ol > li:nth-child(3)
+{
+    background-image: url('../img/free.png');
+}

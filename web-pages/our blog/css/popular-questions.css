@@ -1,0 +1,56 @@
+.popular-questions {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	border-bottom: #e3e3e3 1px solid;
+	padding-top: 115px;
+}
+
+.popular-questions h1 {
+	margin-top: 0;
+}
+
+
+.popular-questions .title-quotes {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 1.875em;
+	margin-top: 70px;
+	color: #rgb(62, 79, 95);;
+}
+
+.popular-questions .content {
+	color: #000;
+	max-width: 620px;
+}
+
+
+.popular-questions q {
+	margin-top: 45px;
+	margin-bottom: 70px;
+	line-height: 2em;
+	display: inline-block;
+	font-size: 1.25em;
+	color: rgb(171, 182, 187);
+}
+
+.popular-questions q:after,
+.popular-questions q:before
+{
+	content: '';
+	display: block;
+	background-image: url('../img/quotes.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+
+.popular-questions q:before {
+	height: 60px;
+	transform: rotate(180deg);
+}
+
+.popular-questions q:after {
+	height: 70px;
+}
+
+

@@ -1,0 +1,25 @@
+.contacts
+{
+    line-height: 65em;
+
+    text-align: center;
+}
+.contacts .container
+{
+    display: inline-block;
+
+    vertical-align: baseline;
+}
+
+.contacts a
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875em;
+    line-height: 1.6em;
+
+    display: block;
+
+    text-align: center;
+
+    color: rgb(0, 156, 231);
+}

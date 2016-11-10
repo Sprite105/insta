@@ -1,0 +1,126 @@
+.top-panel
+{
+    padding-top: 135px;
+    padding-bottom: 10px;
+
+    background-color: #2b3468;
+}
+
+header
+{
+    line-height: 70px;
+
+    position: fixed;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 6%;
+    padding-left: 6%;
+
+    text-align: right;
+
+    background-color: #2b3468;
+}
+
+header .container
+{
+    padding-top: 10px;
+}
+
+header  nav
+{
+    position: absolute;
+    position: absolute;
+    top: 50px;
+    right: 100%;
+    right: 50px;
+
+    display: none;
+
+    width: 50%;
+    max-width: 50%;
+
+    text-align: center;
+
+    background: rgba(0,0,0, .5);
+}
+
+header  nav a
+{
+    float: none;
+
+    width: 100%;
+    margin-right: 40px;
+}
+
+header a
+{
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+header .logo
+{
+    display: inline-block;
+    float: left;
+
+    width: 40px;
+    height: 50px;
+    padding-left: 60px;
+
+    background: url(../img/logo.png) no-repeat top left;
+    background-size: 50px auto;
+}
+
+header .logo > p
+{
+    display: none;
+    visibility: hidden;
+}
+
+header .logo:hover > p
+{
+    visibility: visible;
+}
+
+.top-panel
+{
+    font-size: .7em;
+
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+
+.top-panel h1
+{
+    font-size: 3em;
+
+    max-width: 510px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.mobile-menu
+{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
+    display: block;
+    float: right;
+
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+
+    cursor: pointer;
+
+    background-color: #dc5a16;
+}

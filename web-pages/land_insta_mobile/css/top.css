@@ -1,0 +1,176 @@
+/*подключения шрыфтов и общие стили*/
+@font-face
+{
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-style: normal;
+
+    src: url('../fonts/Proxima Nova Bold.eot');
+    src: local('☺'), url('../fonts/Proxima Nova Bold.woff') format('woff'),
+    url('../fonts/Proxima Nova Bold.ttf') format('truetype'),
+    url('../fonts/Proxima Nova Bold.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Proxima Nova Regular.eot');
+    src: local('☺'), url('../fonts/Proxima Nova Regular.woff') format('woff'),
+    url('../fonts/Proxima Nova Regular.ttf') format('truetype'),
+    url('../fonts/Proxima Nova Regular.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Roboto-Regular.eot');
+    src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype'),
+    url('../fonts/Roboto-Regular.svg') format('svg');
+}
+
+
+body
+{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: normal;
+}
+
+.container
+{
+    font-size: 1em;
+
+    overflow: hidden;
+
+    width: 93.75%;
+    margin: 0 auto;
+}
+
+.icon
+{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+
+    border-radius: 5px;
+    background-color: #332147;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #fff;
+}
+
+/* конец общих стилей*/
+.top
+{
+    overflow: hidden;
+
+    background-color: #3a38a7;
+}
+
+.top .logo
+{
+    display: block;
+
+    width: 49px;
+    height: 41px;
+
+    background: url('../img/logo.png') no-repeat;
+}
+
+.top h1
+{
+    font-weight: bold;
+}
+.top h4
+{
+    font-weight: normal;
+}
+
+.top nav
+{
+    float: right;
+}
+
+.top nav > a
+{
+    line-height: 40px;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.top nav > a:hover
+{
+    color: #332147;
+    background-color: #fff;
+}
+
+.top header
+{
+    line-height: 75px;
+
+    margin-top: 30px;
+}
+
+.content
+{
+    overflow: hidden;
+
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 15px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.content h4
+{
+    color: rgba(255, 254, 254, .502);
+}
+
+.content img
+{
+    width: 70%;
+    max-width: 320px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 55px;
+
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0,0,0,.65);
+}
+
+.shop-button
+{
+    line-height: 50px;
+
+    display: block;
+
+    width: 70%;
+    min-width: 100px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+    text-align: center;
+
+    color: #332147;
+    border-radius: 25px;
+    background-color: #fff;
+}

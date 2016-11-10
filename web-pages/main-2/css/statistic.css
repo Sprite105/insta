@@ -1,0 +1,63 @@
+.statistic
+{
+    margin: 0 auto;
+
+    background-image: url('../img/statistic-background.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 78%;
+}
+
+
+.statistic .container
+{
+    background-color: #fff;
+    box-shadow: 20px 20px 10px rgba(0,0,0, .2);
+}
+
+.statistic .container h1
+{
+    font-size: 2em;
+}
+
+
+
+.statistic .number
+{
+    font-family: 'Proximanova Light', sans-serif;
+    font-size: 4.5em;
+    line-height: 1.5em;
+
+    color: #fc5a01;
+}
+
+.statistic li > p
+{
+    font-size: 1.5em;
+}
+
+
+.statistic ol
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    margin: 0;
+    margin-bottom: 150px;
+
+    color: rgb(163, 164, 167);
+}
+
+.statistic .get-started-button
+{
+    line-height: 63px;
+
+    display: block;
+
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 140px;
+
+    text-align: center;
+}

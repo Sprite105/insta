@@ -1,0 +1,89 @@
+header
+{
+    position: fixed;
+}
+
+header input[type='checkbox']
+{
+    display: none;
+}
+
+header input[type='checkbox']:checked ~ nav
+{
+    display: inline-block;
+}
+
+header input[type='checkbox']:checked ~ .mobile-menu:after
+{
+    width: 25px;
+
+    transform: translateX(5px) rotate(-45deg);
+    transform-origin: bottom left;
+}
+
+header input[type='checkbox']:checked ~ .mobile-menu:before
+{
+    width: 25px;
+
+    transform: translateX(5px) rotate(45deg);
+    transform-origin: top left;
+}
+
+header input[type='checkbox']:checked ~ .mobile-menu > .menu-line
+{
+    visibility: hidden;
+}
+
+header label[for='humburger']
+{
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -40px;
+
+    cursor: pointer;
+
+    background-color: transparent;
+}
+
+.menu-line,
+.mobile-menu:after,
+.mobile-menu:before
+{
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: inline-block;
+
+    width: 22px;
+    height: 3px;
+    margin: auto;
+
+    transition: transform .5s, visibility .2s;
+
+    background-color: #fff;
+}
+
+.mobile-menu:after,
+.mobile-menu:before
+{
+    content: '';
+}
+
+.mobile-menu:after
+{
+    margin-bottom: 10px;
+}
+
+.mobile-menu:before
+{
+    margin-top: 10px;
+}

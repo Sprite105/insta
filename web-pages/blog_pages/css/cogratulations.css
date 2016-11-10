@@ -1,0 +1,60 @@
+/*Временное решение
+  Нужно вияснить как делать на маленьких екранах(будет ли другая страница для мобильних и тд)
+*/
+
+@media (max-width: 880px) {
+	.container {
+		min-width: 320px;
+	}
+
+	.container nav {
+		display: none;
+	}
+}
+
+.congratulations-top-panel {
+	background-image: url('../img/congratulation-top-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.container-congratulations {
+	margin-top: 70px;
+	padding-top: 250px;
+	background-image: url('../img/congratulations.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	text-align: center;
+	line-height: 1.5em;
+	min-width: 320px;
+	margin-bottom: 170px;
+}
+
+.container-congratulations h1 {
+	font-size: 1.5em;
+	line-height: 3em;
+}
+
+
+.container-congratulations .get-started-button {
+	margin-top: 30px;
+}
+
+.congratulations-top-panel h1 {
+	margin-bottom: 80px;
+	font-weight: bold;
+}
+
+.congratulations-top-panel {
+	min-width: 320px;
+}
+
+span.diamonds {
+	color: #dc5a16;
+	font-weight: bold;
+}
+
+
+

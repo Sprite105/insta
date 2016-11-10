@@ -1,0 +1,142 @@
+
+@media (max-width: 880px) {
+	.container {
+		min-width: 320px;
+	}
+
+	.container nav {
+		display: none;
+	}
+}
+
+.congratulations-top-panel {
+	background-image: url('../../image/congratulation-top-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    font-family: 'Proximanova Light', sans-serif;
+    font-weight: bold;
+}
+
+
+.container-congratulations {
+	margin-top: 70px;
+	padding-top: 250px;
+	background-image: url('../../image/congratulations.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	text-align: center;
+	line-height: 1.5em;
+	min-width: 320px;
+	margin-bottom: 170px;
+}
+
+.container-congratulations h1 {
+	font-size: 1.5em;
+	line-height: 3em;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.container-congratulations h2 {
+    font-size: 1em;
+    font-family: 'Proxima Nova', sans-serif;
+    line-height: 1.5em;
+}
+
+
+.container-congratulations .get-started-button {
+	margin-top: 30px;
+}
+
+.congratulations-top-panel h1 {
+	margin-bottom: 80px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: bold;
+}
+
+.congratulations-top-panel {
+	min-width: 320px;
+}
+
+.container-congratulations span.diamonds {
+	color: #dc5a16;
+	font-weight: bold;
+}
+
+
+
+
+
+header  nav,
+.get-started-button
+{
+    position: static;
+
+    display: inline-block;
+
+    max-width: 50%;
+}
+
+
+.top-panel h1
+{
+    font-size: 3em;
+
+    max-width: 510px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+header .logo
+{
+    display: inline-block;
+    float: left;
+
+    padding-left: 60px;
+
+    background: url(../../image/logo.png) no-repeat center left;
+    background-size: 50px auto;
+}
+
+header .logo > p
+{
+    visibility: hidden;
+}
+
+header .logo:hover > p
+{
+    visibility: visible;
+}
+
+
+.banner  nav
+{
+    position: static;
+
+    display: inline-block;
+
+    max-width: 50%;
+}
+
+.banner  nav > a
+{
+    margin-right: 30px;
+}
+
+ header
+{
+    line-height: 100px;
+
+    position: fixed;
+
+    width: 100%;
+
+    text-align: right;
+
+    background-color: rgba(0,0,0, .08);
+}

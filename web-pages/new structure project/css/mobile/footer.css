@@ -1,0 +1,61 @@
+footer
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #242729;
+}
+
+
+footer .container  h1
+{
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 3em;
+
+    margin: 0;
+    margin-top: 30px;
+
+    color: #fff;
+}
+
+footer a
+{
+    line-height: 1.5;
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    color: #fc5a01;
+}
+
+footer .logo
+{
+    font-size: 1em;
+    line-height: 1.5em;
+
+    padding-top: 90px;
+
+    color: rgba(255, 255, 255, .502);
+    background-image: url('../../image/logo.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto 52px;
+}
+
+footer .copyright
+{
+    font-size: 1em;
+    line-height: 4.375em;
+}
+
+footer .container
+{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px;
+}

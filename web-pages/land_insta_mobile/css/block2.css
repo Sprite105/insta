@@ -1,0 +1,92 @@
+.block2
+{
+    overflow: hidden;
+}
+
+.block2 h2,
+.block2 h3,
+.block2 h4,
+.block2 h5,
+.block2 p
+{
+    font-weight: normal;
+
+    margin: 0;
+    margin-top: 40px;
+
+    text-align: center;
+
+    color: rgb(86, 86, 86);
+}
+.profile-ico
+{
+    font-size: 1.5em;
+
+    padding-top: 65px;
+
+    color: #000;
+    background: url('../img/profile.png') center top no-repeat;
+}
+
+.block2 h2
+{
+    margin-top: 85px;
+}
+.phone
+{
+    box-sizing: border-box;
+    width: 310px;
+    height: 477px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 65px;
+
+    background: url('../img/phone-block-2.png') center no-repeat;
+}
+
+.item-left > h4,
+.item-right > h4
+{
+    color: rgb(86, 86, 86);
+}
+
+.item-left,
+.item-right
+{
+    box-sizing: border-box;
+    width: 33%;
+    max-width: 415px;
+    padding: 27px 10px 10px 18px;
+}
+
+.item-left:hover,
+.item-right:hover
+{
+    background-color: #f8f2ff;
+}
+
+.item-left
+{
+    float: left;
+    clear: left;
+}
+
+.item-right
+{
+    float: right;
+}
+
+.block2 .icon
+{
+    float: left;
+
+    margin-right: 60px;
+}
+
+.inscription
+{
+    float: left;
+    overflow: hidden;
+
+    max-width: 265px;
+}

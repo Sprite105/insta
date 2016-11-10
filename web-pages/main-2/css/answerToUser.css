@@ -1,0 +1,31 @@
+.answerToUser
+{
+    padding: 40px 0;
+
+    text-align: center;
+
+    background-image: url('../img/answerToUser-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.answerToUser h1
+{
+    font-size: 2.5em;
+
+    margin-bottom: 40px;
+
+    color: #fff;
+}
+
+
+.answerToUser .get-started-button
+{
+    line-height: 45px;
+
+    display: block;
+
+    max-width: 245px;
+    margin: 0 auto;
+}

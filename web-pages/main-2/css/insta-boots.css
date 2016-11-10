@@ -1,0 +1,84 @@
+.insta-boots
+{
+    text-align: left;
+
+    color: #fff;
+    background-image: url('../img/instaboots-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.insta-boots .container
+{
+    max-width: 1280px;
+}
+
+.insta-boots .content
+{
+    float: right;
+
+    width: 48.82%;
+    max-width: 625px;
+    margin-top: 130px;
+    margin-bottom: 195px;
+
+    text-align: left;
+}
+
+.insta-boots h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    margin-left: -2px;  /* сдвиг первого абзаца относительно второго происходит 
+						через разницу размеров текста*/
+
+    text-align: left;
+
+    color: #fff;
+}
+
+.insta-boots h3
+{
+    font-family: 'Proximanova Light', sans-serif;
+    line-height: 1.5em;
+
+    margin-top: 16px;
+}
+
+
+.insta-boots .get-started-button
+{
+    font-family: 'MyriadProRegular', sans-serif;
+    line-height: 50px;
+
+    float: left;
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 245px;
+    margin: 0;
+    margin-right: 22px;
+    padding-left: 60px;
+
+    letter-spacing: 1px;
+
+    border-radius: 0;
+}
+
+.apple-icon
+{
+    background-image: url('../img/apple-icon.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 22px auto;
+}
+
+.android-icon
+{
+    background-image: url('../img/android-icon.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 22px auto;
+}

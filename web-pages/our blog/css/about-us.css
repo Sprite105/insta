@@ -1,0 +1,47 @@
+.about-us
+{
+    padding-top: 60px;
+
+    border-bottom: #e3e3e3 1px solid;
+}
+
+.about-us .container
+{
+    margin-top: 70px;
+}
+
+.about-us p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 1.5em;
+
+    text-align: left;
+
+    color: rgb(171, 182, 187);
+}
+
+.about-us h1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+
+    color: #000;
+}
+
+
+.about-us .content p:first-letter
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    font-style: italic;
+
+    float: left;
+
+    margin: 30px;
+    margin-top: .5em;
+    margin-right: .25em;
+    margin-bottom: .5em;
+
+    color: #000;
+}

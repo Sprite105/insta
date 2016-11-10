@@ -1,0 +1,126 @@
+footer
+{
+    font-family: 'Proxima Nova', sans-serif;
+
+    background-color: #3a38a7;
+}
+
+footer .container
+{
+    max-width: 535px;
+}
+
+footer h2
+{
+    font-size: 2em;
+    font-weight: 200;
+
+    margin-top: 110px;
+    margin-bottom: 80px;
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #fff;
+}
+
+footer .society
+{
+    display: block;
+    clear: both;
+
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+
+    border-radius: 25px;
+    background-color: #fff;
+    background-image: url('../img/icon-society.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+}
+
+footer .container-link-google-appstore
+{
+    display: block;
+
+    margin-top: 45px;
+    margin-bottom: 55px;
+
+    text-align: center;
+}
+
+footer h3
+{
+    margin: 0;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+footer .support-text
+{
+    margin: 0;
+    margin-top: 18px;
+    margin-bottom: 60px;
+
+    text-align: center;
+
+    color: #6a67ef;
+}
+
+footer .link-social-networks
+{
+    line-height: 30px;
+
+    display: block;
+
+    box-sizing: border-box;
+    width: 430px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-left: 40px;
+
+    color: rgba(255, 255, 255, .2);
+    background-position: left center;
+    background-size: 30px auto;
+}
+
+
+.icon-vk
+{
+    background: url('../img/icon-vk.png') no-repeat;
+}
+
+.icon-facebook
+{
+    background: url('../img/icon-facebook.png') no-repeat;
+}
+
+footer .link-social-networks:last-of-type
+{
+    margin-bottom: 85px;
+}
+
+footer .copyright
+{
+    text-align: center;
+
+    color: #6a67ef;
+}
+
+footer .copyright span
+{
+    color: #fff;
+}
+
+footer .shop-button
+{
+    display: block;
+
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 65px;
+}

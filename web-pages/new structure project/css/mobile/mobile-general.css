@@ -1,0 +1,703 @@
+/*Css Reset*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video
+{
+    font: inherit;
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section
+{
+    display: block;
+}
+body
+{
+    line-height: 1;
+}
+ol,
+ul
+{
+    list-style: none;
+}
+blockquote,
+q
+{
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+    content: '';
+    content: none;
+}
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/*подключения шрыфтов и общие стили*/
+@font-face
+{
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    font-style: normal;
+
+    src: url('../../fonts/Proxima Nova Bold.eot');
+    src: local('☺'), url('../../fonts/Proxima Nova Bold.woff') format('woff'),
+    url('../../fonts/Proxima Nova Bold.ttf') format('truetype'),
+    url('../../fonts/Proxima Nova Bold.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../../fonts/Proxima Nova Regular.eot');
+    src: local('☺'), url('../../fonts/Proxima Nova Regular.woff') format('woff'),
+    url('../../fonts/Proxima Nova Regular.ttf') format('truetype'),
+    url('../../fonts/Proxima Nova Regular.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Proxima Nova';
+    font-weight: 200;
+    font-style: normal;
+
+    src: url('../../fonts/Proxima Nova Light.otf');
+}
+
+body
+{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: normal;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.top-panel
+{
+    font-size: 1em;
+
+    overflow: hidden;
+
+    padding-right: 6%;
+    padding-left: 6%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.top-panel h1
+{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 2.3em;
+    font-weight: bold;
+    line-height: 70px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+
+
+.mobile-menu
+{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
+    display: block;
+    float: right;
+
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+
+    cursor: pointer;
+
+    background-color: #dc5a16;
+}
+
+.container
+{
+    font-size: 1.125em;
+
+    overflow: hidden;
+
+    width: 100%;
+    margin: 0;
+}
+
+main
+{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+aside
+{
+    overflow: hidden;
+
+    width: 100%;
+    margin: 0;
+    margin: 0 auto;
+    padding-top: 40px;
+
+    background-color: #f6f6f6;
+}
+
+aside:last-child
+{
+    background-color: #fff;
+}
+
+
+article h1,
+article h2,
+article h3,
+article h4,
+article p
+{
+    width: 100%;
+}
+.aside-content
+{
+    z-index: 101;
+    top: 0;
+
+    width: 100%;
+}
+
+article p,
+aside p
+{
+    line-height: 1.5em;
+
+    margin-top: 35px;
+}
+
+article h1,
+aside h1
+{
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2;
+
+    margin-top: 40px;
+
+    color: #394066;
+}
+
+article p
+{
+    font-size: 18px;
+    line-height: 1.5em;
+
+    margin-bottom: 12px;
+}
+
+article img:last-child
+{
+    margin-top: 50px;
+}
+
+article .data,
+article a
+{
+    color: rgb(140, 149, 163);
+}
+
+article .data
+{
+    font-size: 1.35em;
+    line-height: 1.2em;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.button-download
+{
+    line-height: 48px;
+
+    display: inline-block;
+
+    margin: 25px 0;
+    padding: 0 30px;
+
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+/*TODO: Поменять название*/
+.button-orange
+{
+    background-color: #fc5a01;
+}
+/*TODO: Поменять название*/
+.button-blue
+{
+    background-color: #3384fc;
+}
+
+aside .banner
+{
+    position: relative;
+
+    display: none;
+
+    height: 450px;
+
+    background: url(../img/Rectangle-banana.png);
+}
+
+.banner .button-download
+{
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    left: 0;
+
+    width: 50%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+
+article a
+{
+    font-size: 1.33em;
+    line-height: 1.25em;
+
+    text-decoration: underline;
+}
+
+.data:first-child
+{
+    margin: 24px 0;
+}
+
+.data
+{
+    margin: 12px 0;
+}
+
+.blog-title
+{
+    line-height: 2em;
+}
+
+aside h1
+{
+    font-size: 2.5em;
+}
+.aside-content
+{
+    box-sizing: border-box;
+    max-width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.aside-content .banner
+{
+    display: none;
+}
+
+
+.top-panel
+{
+    padding-top: 190px;
+    padding-bottom: 40px;
+
+    background-color: #2b3468;
+}
+
+header
+{
+    line-height: 90px;
+
+    position: fixed;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 6%;
+    padding-left: 6%;
+
+    text-align: right;
+
+    background-color: transparent;
+}
+
+header .container
+{
+    position: relative;
+
+    display: inline-block;
+    overflow: visible;
+
+    padding: 0;
+
+    vertical-align: middle;
+}
+
+header a
+{
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #fff;
+}
+
+header .logo
+{
+    display: inline-block;
+    float: left;
+
+    width: 40px;
+    height: 50px;
+    padding-left: 60px;
+
+    background: url(../../image/logo.png) no-repeat top left;
+    background-size: 50px auto;
+}
+
+header .logo > p
+{
+    display: none;
+    visibility: hidden;
+}
+
+header input[type='checkbox']
+{
+    display: none;
+}
+
+header input[type='checkbox']:checked ~ nav
+{
+    display: block;
+}
+
+
+.header-scroll
+{
+    z-index: 99999;
+    top: -1px;
+    right: -1px;
+    left: -1px;
+
+    width: calc(100% + 2px);
+
+    transition: background .4s, color .4s;
+
+    color: #394066;
+    background: white;
+    box-shadow: 1px 1px 11px rgba(0, 0, 0, .3);
+}
+
+
+.get-started-button
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 45px;
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 245px;
+    padding: 0 12px;
+
+    cursor: pointer;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #fc5a01;
+}
+
+
+/*Mobile Menu*/
+header nav
+{
+    position: absolute;
+    
+    display: table;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    transition: all 1s;
+    text-align: center;
+    max-width: 240px;
+    background: #1b1b1b;
+}
+
+header .menu-wrapper
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: background-color 1s;
+    background-color: transparent;
+}
+
+header .wrapper-link {
+    display: table-cell;
+
+    vertical-align: middle;
+}
+
+header nav a
+{
+    float: none;
+    color: rgb(193, 193, 193);
+    line-height: 2.5em;
+    display: block;
+    width: 100%;
+}
+
+
+header input[type='checkbox']
+{
+    display: none;
+}
+
+header input[type='checkbox']:checked ~ .menu-wrapper
+{
+    background-color: rgba(0,0,0, .5);
+}
+
+header input[type='checkbox']:checked ~ .menu-wrapper nav
+{
+    left: 0;
+}
+
+.menu-wrapper .get-started-button {
+    position: absolute;
+    width: 150px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 20px;
+}
+
+/*s
+header input[type='checkbox']:checked ~ .menu:after
+{
+    width: 25px;
+
+    transform: translateX(5px) rotate(-45deg);
+    transform-origin: bottom left;
+}
+
+header input[type='checkbox']:checked ~ .menu:before
+{
+    width: 25px;
+
+    transform: translateX(5px) rotate(45deg);
+    transform-origin: top left;
+}
+
+header input[type='checkbox']:checked ~ .menu > .menu-line
+{
+    visibility: hidden;
+}*/
+
+header label[for='mobile-menu']
+{
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    cursor: pointer;
+
+    background-color: transparent;
+}
+
+.menu
+{
+    position: absolute;
+    top: 50%;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+
+    float: right;
+
+    width: 40px;
+    height: 40px;
+    margin: auto;
+
+    cursor: pointer;
+    z-index: 9999;
+    background-color: #fc5a01;
+}
+
+.menu-line,
+.menu:after,
+.menu:before
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: inline-block;
+
+    width: 22px;
+    height: 3px;
+    margin: auto;
+
+    transition: transform .5s, visibility .2s;
+
+    background-color: #fff;
+}
+
+.menu:after,
+.menu:before
+{
+    content: '';
+}
+
+.menu:after
+{
+    margin-bottom: 10px;
+}
+
+.menu:before
+{
+    margin-top: 10px;
+}

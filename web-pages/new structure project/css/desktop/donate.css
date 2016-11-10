@@ -1,0 +1,765 @@
+body
+{
+    background-color: #161c31;
+    background-image: url('../../image/donate-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section
+{
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+.title
+{
+    margin-top: 160px;
+
+    text-align: center;
+}
+
+.title h1
+{
+    font-size: 2.25em;
+    line-height: 1.95em;
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.image-checked {
+     filter: brightness(0.75);
+    -webkit-filter: brightness(0.75);
+    -moz-filter: brightness(0.75);
+    -o-filter: brightness(0.75);
+    -ms-filter: brightness(0.75);
+}
+
+.title h3
+{
+    font-size: 1.125em;
+    line-height: 1em;
+    font-weight: 300;
+    max-width: 495px;
+    margin: 0 auto;
+
+    color: rgba(255, 255, 255, .302);
+}
+
+.display
+{
+    overflow: hidden;
+
+    width: 73.79%;
+    max-width: 845px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.display h1
+{
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 6.875em;
+
+    text-transform: none;
+
+    color: rgb(21, 26, 47);
+}
+
+.display .photos
+{
+    position: relative;
+
+    float: left;
+    overflow-x: hidden;
+
+    width: 59.17%;
+    max-height: 415px;
+    margin-bottom: 60px;
+
+    text-align: left;
+}
+
+.photos figure
+{
+    position: relative;
+
+    display: inline-block;
+    overflow: hidden;
+
+    width: 30%;
+    margin: 10px 0 0 10px;
+}
+
+.photos figure figcaption
+{
+    position: absolute;
+    bottom: 0;
+
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+
+    text-shadow: 0 3px 3px #000;
+}
+
+figcaption p:last-child
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.5em;
+
+    box-sizing: border-box;
+
+    color: #fc5901;
+}
+
+.photos .selected-ico
+{
+    position: absolute;
+    z-index: 1000;
+    top: 8px;
+    right: 8px;
+
+    display: block;
+
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+
+    content: '';
+
+    border: #fff 2px solid;
+    border-radius: 50%;
+    background-color: #fc5901;
+    box-shadow: 0 2px 2px 2px rgba(0,0,0, .3);
+}
+
+.selected-ico:after
+{
+    position: absolute;
+    top: 0;
+    top: -2px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+
+    box-sizing: border-box;
+    width: 9px;
+    height: 5px;
+    margin: auto;
+
+    content: '';
+    transform: rotate(-45deg);
+
+    border-bottom: #fff 2px solid;
+    border-left: #fff 2px solid;
+}
+
+
+.photos input
+{
+    display: none;
+}
+
+.count-like
+{
+    position: relative;
+}
+
+.count-like .count {
+    font-size: 1.2em;
+    line-height: 40px;
+    vertical-align: bottom;
+}
+
+figcaption .price {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.count-like .left
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+
+    display: inline-block;
+
+    width: 0;
+    height: 0;
+    margin: auto;
+
+    cursor: pointer;
+    vertical-align: middle;
+
+    color: #9d9a9a;
+    border-top: 5px solid transparent;
+    border-right: 5px solid;
+    border-bottom: 5px solid transparent;
+}
+
+.count-like .right
+{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+
+    display: inline-block;
+
+    width: 0;
+    height: 0;
+    margin: auto;
+
+    cursor: pointer;
+    vertical-align: middle;
+
+    color: #9d9a9a;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid;
+}
+
+
+.order
+{
+    float: left;
+}
+
+.photo
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+
+    padding-left: 35px;
+
+    text-align: left;
+    vertical-align: top;
+
+    color: #000;
+}
+
+.photo .name,
+.payment-and-total-cost .name
+{
+    font-weight: 400;
+
+    color: rgb(180, 180, 180);
+}
+
+
+.photo .all-price,
+.payment-and-total-cost .all-price
+{
+    font-weight: 500;
+
+    color: #fc5901;
+}
+
+.payment-and-total-cost .get-started-button
+{
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 150px;
+    margin-left: 5px;
+
+    text-align: center;
+}
+
+.payment-and-total-cost
+{
+    font-family: 'Roboto', sans-serif;
+
+    position: absolute;
+    bottom: 20px;
+
+    width: 100%;
+    max-width: 320px;
+
+    text-align: left;
+}
+
+.payment-and-total-cost p
+{
+    display: inline-block;
+    overflow: hidden;
+
+    width: 100%;
+    max-width: calc(100% - 160px);
+
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.payment-and-total-cost .digit,
+.receive-our-subscribers .digit,
+.buy-likes-on-photos .digit
+{
+    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: 600;
+
+    color: #fc5901;
+}
+
+
+.receive-our-subscribers,
+.buy-likes-on-photos
+{
+    padding-right: 50px;
+    padding-bottom: 170px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+.receive-our-subscribers .item,
+.buy-likes-on-photos .item
+{
+    float: left;
+
+    box-sizing: border-box;
+    width: 20%;
+    padding-top: 80px;
+
+    text-align: center;
+
+    border-top: #e2e2e2 1px solid;
+    border-left: #e2e2e2 1px solid;
+    background-image: url('../../image/user-male.png');
+    background-repeat: no-repeat;
+    background-position: center 50px;
+}
+
+.receive-our-subscribers .item:nth-of-type(1),
+.receive-our-subscribers .item:nth-of-type(2),
+.receive-our-subscribers .item:nth-of-type(3),
+.receive-our-subscribers .item:nth-of-type(4),
+.receive-our-subscribers .item:nth-of-type(5)
+{
+    border-top: none;
+}
+
+
+.buy-likes-on-photos .item:nth-of-type(1),
+.buy-likes-on-photos .item:nth-of-type(2),
+.buy-likes-on-photos .item:nth-of-type(3),
+.buy-likes-on-photos .item:nth-of-type(4),
+.buy-likes-on-photos .item:nth-of-type(5)
+{
+    border-top: none;
+}
+
+.buy-likes-on-photos .item:nth-of-type(5n + 1),
+.receive-our-subscribers .item:nth-of-type(5n + 1)
+{
+    clear: left;
+
+    border-left: none;
+}
+
+.buy-likes-on-photos .item .price,
+.receive-our-subscribers .item .price
+{
+    font-weight: 600;
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    color: #878787;
+}
+
+.receive-our-subscribers .item:hover,
+.buy-likes-on-photos .item:hover
+{
+    box-shadow: 0 0 10px 5px #e2e2e2;
+}
+
+.receive-our-subscribers .item a.basket
+{
+    display: none;
+}
+
+.receive-our-subscribers .item:hover a.basket,
+.buy-likes-on-photos .item:hover a.basket
+{
+    position: relative;
+    z-index: 1000;
+    bottom: -25px;
+
+    display: block;
+
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+
+    border-radius: 50%;
+    background-color: #fc5a03;
+    background-image: url('../../image/shopping-basket.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 10px 0 rgba(252, 90, 3, 1);
+}
+
+.receive-our-subscribers .item:hover .price,
+.buy-likes-on-photos .item:hover .price
+{
+    display: none;
+}
+
+section.buy-likes-on-photos
+{
+    margin-bottom: 35px;
+    padding-bottom: 0;
+    padding-bottom: 25px;
+}
+
+.buy-likes-on-photos .item
+{
+    position: relative;
+
+    background-image: url('../../image/heart.png');
+}
+
+.item.popular
+{
+    border: #fc5a03 1px solid;
+}
+
+.inscription
+{
+    font-size: 1em;
+    font-weight: 600;
+
+    position: absolute;
+    top: 10px;
+    right: 0;
+    left: 0;
+
+    text-transform: uppercase;
+
+    color: #fc5901;
+}
+
+.buy-likes-on-photos .photography
+{
+    margin: 0 auto;
+    margin-bottom: 5px;
+
+    text-align: center;
+}
+
+.buy-likes-on-photos .photography img
+{
+    border-radius: 50%;
+}
+
+
+.method-for-producing-subscribers
+{
+    padding-bottom: 390px;
+}
+
+.method-for-producing-subscribers .wrapper,
+.method-for-producing-like  .wrapper
+{
+    max-width: 530px;
+    margin: 0 auto;
+
+    text-align: justify;
+}
+
+.method-for-producing-subscribers p,
+.method-for-producing-like p
+{
+    font-family: 'Roboto';
+    font-size: 1em;
+    line-height: 1.5em;
+
+    letter-spacing: 1px;
+
+    color: rgb(176, 176, 176);
+}
+
+.method-for-producing-subscribers input[type='text'],
+.method-for-producing-like  input[type='text']
+{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 470px;
+    height: 50px;
+
+    text-align: center;
+
+    color: rgb(21, 26, 47);
+    border: rgb(176, 176, 176) 1px solid;
+    background-color: #f5f5f5;
+}
+
+
+.method-for-producing-subscribers input:focus,
+.method-for-producing-like input:focus
+{
+    outline: none;
+}
+
+.method-for-producing-subscribers input[type='submit'],
+.method-for-producing-like input[type='submit']
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+
+    cursor: pointer;
+    vertical-align: middle;
+
+    border: none;
+    border-radius: 50%;
+    background-color: #fc5a01;
+    background-image: url('../../image/arrow-left.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.method-for-producing-like
+{
+    padding-bottom: 175px;
+
+    text-align: center;
+}
+
+form .wrapper
+{
+    display: block;
+}
+
+.method-for-producing-like .wrapper
+{
+    text-align: center;
+}
+
+.method-for-producing-like .wrapper:nth-child(2)
+{
+    box-sizing: border-box;
+    max-width: 700px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+    text-align: center;
+
+    border-radius: 10px;
+    background-color: #ececec;
+}
+
+.method-for-producing-like .wrapper h1
+{
+    line-height: 70px;
+
+    color: #000;
+}
+
+
+.choice
+{
+    position: relative;
+    background-color: #1a123a;
+    box-sizing: border-box;
+    
+}
+
+.choice .container {
+    overflow: visible;
+}
+
+.choice .container:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+
+.choice .container-tabs
+{
+    line-height: 65px;
+
+    display: block;
+    float: right;
+    background-color: #f5f5f5;
+    width: 52%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    max-width: 495px;
+    padding-right: 40px;
+
+    text-align: right;
+
+    color: #e2e2e2;
+}
+
+.choice .container-tabs input
+{
+    display: none;
+}
+
+.choice .container-tabs .tabs
+{
+    margin-bottom: 110px;
+}
+
+.container-tabs .tabs label
+{
+    font-weight: 300;
+
+    display: inline-block;
+
+    padding: 0 20px;
+
+    cursor: pointer;
+
+    border-bottom: transparent 3px solid;
+}
+
+.container-tabs .likes,
+.container-tabs .subscribers
+{
+    margin-left: 60px;
+
+    text-align: left;
+}
+
+.container-tabs ol li
+{
+    line-height: 40px;
+
+    position: relative;
+
+    padding-left: 20px;
+
+    color: #000;
+}
+
+.container-tabs h1
+{
+    line-height: 1em;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    text-align: left;
+}
+
+.container-tabs ol li:before
+{
+    font-size: 2em;
+
+    position: absolute;
+    left: 0;
+
+    display: inline-block;
+
+    content: '\2022';
+
+    color: #fc5901;
+}
+
+.container-tabs ol
+{
+    margin-bottom: 90px;
+}
+
+.container-tabs .button
+{
+    font-size: 1em;
+    line-height: 3.5625em;
+    display: block;
+
+    max-width: 230px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border-radius: 40px;
+    background-color: #00b81f;
+    box-shadow: 0px 7px 40px 0px rgba(86, 183, 54, 0.8);
+}
+
+.container-tabs .button:hover
+{
+    text-decoration: none;
+}
+
+.likes
+{
+    display: none;
+}
+
+.container-tabs #likes:checked ~ .tabs label[for='likes']
+{
+    color: #000;
+    border-bottom: #fc5a01 3px solid;
+}
+
+.container-tabs #likes:checked ~ .likes
+{
+    display: block;
+}
+
+.container-tabs #subscribers:checked ~ .tabs label[for='subscribers']
+{
+    color: #000;
+    border-bottom: #fc5a01 3px solid;
+}
+
+.subscribers
+{
+    display: none;
+}
+
+.container-tabs #subscribers:checked ~ .subscribers
+{
+    display: block;
+}
+
+.backgroung
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 345px;
+    background-image: url('../../image/like-box.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-tabs #subscribers:checked ~ .backgroung
+{
+    background-image: url('../../image/sub-box.png');
+}
