@@ -1,0 +1,44 @@
+.top-panel
+{
+    box-sizing: border-box;
+    padding-top: 140px;
+    padding-right: 0;
+    padding-bottom: 35px;
+    padding-left: 0;
+
+    background-image: url('../../image/mobile-main-blog-page-background.jpg');
+    background-size: cover;
+}
+
+.top-panel h1
+{
+    line-height: 1.2;
+}
+
+article img,
+article img:last-child
+{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+aside
+{
+    padding: 0;
+}
+
+aside p
+{
+    margin: 0;
+}
+
+article h1
+{
+    font-size: 1.825em;
+}
+
+article p
+{
+    margin-top: 0;
+    margin-bottom: 35px;
+}

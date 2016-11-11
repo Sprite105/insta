@@ -1,0 +1,48 @@
+.container
+{
+    font-size: 1.4em;
+
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+    text-align: center;
+}
+
+h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.2;
+
+    text-transform: uppercase;
+
+    color: rgb(104, 126, 143);
+}
+
+.error-code p
+{
+    font-family: 'Arial', serif;
+    font-size: 6.4375em;
+    font-weight: 900;
+    line-height: 1;
+
+    color: #c0cbd4;
+}
+
+.btn-back-to-site
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: .7125em;
+    line-height: 45px;
+
+    display: inline-block;
+
+    width: 100%;
+    max-width: 145px;
+    margin-top: 40px;
+
+    text-align: center;
+
+    border-radius: 22.5px;
+}

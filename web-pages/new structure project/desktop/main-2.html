@@ -1,11 +1,13 @@
+<?php /* Template Name: Home */ ?>
+<?php $root = get_template_directory_uri(); ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Main 2</title>
-	<link rel="stylesheet" href="../css/desktop/basic.css">
-	<link rel="stylesheet" href="../css/desktop/main-2.css">
-	<link rel="stylesheet" href="../css/desktop/footer.css">
+	<title><?php wp_title(''); ?></title>
+	<link rel="stylesheet" href="<?php echo $root . "/"; ?>css/desktop/basic.css">
+	<link rel="stylesheet" href="<?php echo $root . "/"; ?>css/desktop/main-2.css">
+	<link rel="stylesheet" href="<?php echo $root . "/"; ?>css/desktop/footer.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700" rel="stylesheet">
 </head>
@@ -189,17 +191,17 @@
 			<div class="row">
 				<p class="description"><span >King of Likes - уникальная бесплатная автоматическая накрутка для инстаграм. Каждый день Вы будете видеть новых и новых подписчиков и лайки под Вашими записями. Всё, что Вам нужно для работы с нашим сервисом - это скачать приложение и нажать кнопку "СТАРТ", Остальное мы сделаем за Вас!
 				</span></p>
-				<img src="../image/capturePhone.jpg" alt="capturePhone">
+				<img src="<?php echo $root . "/"; ?>image/capturePhone.jpg" alt="capturePhone">
 			</div>
 			<div class="row">
-				<img src="../image/phoneInJeans.jpg" alt="phoneInJeans">
+				<img src="<?php echo $root . "/"; ?>image/phoneInJeans.jpg" alt="phoneInJeans">
 				<p class="description"><span>Качай наше приложение, авторизируйся через Instagram, приводи друзей, собирай бонусыи выполняй ежедневное задание, заказывай подписчиков и наслаждайся! Всё остальное мы сделаем за Вас</span>
 				</p>
 			</div>
 			<div class="row">
 				<p class="description"><span>Добро пожаловать на официальную страницу King of Likes - накрутка лайков в инстаграме, накрутка подписчиков в инстаграме.</span>
 				</p>
-				<img src="../image/welcome.jpg" alt="welcome">
+				<img src="<?php echo $root . "/"; ?>image/welcome.jpg" alt="welcome">
 			</div>
 		</div>
 	</section>
@@ -245,9 +247,9 @@
 		</div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
-	<script src="../js/desktop/popup.js"></script>
-	<script src="../js/desktop/appearance-button-go-top.js"></script>
-	<script src="../js/desktop/smooth-scrolling.js"></script>
-	<script src="../js/desktop/changeFixedHeader.js"></script>
+	<script src="<?php echo $root . "/"; ?>js/desktop/popup.js"></script>
+	<script src="<?php echo $root . "/"; ?>js/desktop/appearance-button-go-top.js"></script>
+	<script src="<?php echo $root . "/"; ?>js/desktop/smooth-scrolling.js"></script>
+	<script src="<?php echo $root . "/"; ?>js/desktop/changeFixedHeader.js"></script>
 </body>
 </html>

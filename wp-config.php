@@ -20,16 +20,16 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'csgolott_insta');
+define('DB_NAME', 'insta');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'csgolott_insta');
+define('DB_USER', 'root');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'w4ggej3r');
+define('DB_PASSWORD', '');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'csgolott.mysql.ukraine.com.ua');
+define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');

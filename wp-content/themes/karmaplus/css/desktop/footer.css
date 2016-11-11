@@ -1,0 +1,148 @@
+footer
+{
+    font-family: 'Roboto Light', sans-serif;
+
+    overflow: hidden;
+
+    padding-top: 140px;
+
+    color: #fff;
+    background-color: #2a2c2d;
+}
+
+.keywords-container
+{
+    float: left;
+
+    max-width: 40%;
+}
+
+footer h1
+{
+    margin-bottom: 25px;
+
+    text-align: left;
+
+    color: #fff;
+}
+
+footer .keywords
+{
+    line-height: 2.1875em;
+    float: left;
+    width: 100%;
+    color: rgb(163, 164, 167);
+}
+
+.links
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+
+    float: left;
+    display: block;
+    width: 100%;
+    max-width: 20%;
+}
+
+footer a
+{
+    line-height: 2.1875em;
+
+    display: block;
+    float: none;
+
+    width: 100%;
+
+    color: rgb(163, 164, 167);
+}
+
+.social
+{
+    font-family: 'Roboto Light', sans-serif;
+
+    float: left;
+
+    width: 320px;
+}
+
+.social h3,
+.social a
+{
+    padding-left: 45px;
+
+    background-repeat: no-repeat;
+}
+
+.social a
+{
+    line-height: 50px;
+}
+
+.vkontakte
+{
+    background-image: url('../../image/vk.png');
+    background-position: left center;
+}
+
+.facebook
+{
+    background-image: url('../../image/facebook.png');
+    background-position: 5px center;
+}
+
+.twitter
+{
+    background-image: url('../../image/twitter.png');
+    background-position: left center;
+}
+
+footer h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+
+
+
+.container-language-rights
+{
+    line-height: 90px;
+
+    clear: both;
+
+    margin-top: 85px;
+
+    border-top: #393e40 1px solid;
+}
+
+
+.container-language-rights p
+{
+    display: inline-block;
+}
+
+.container-language-item
+{
+    display: inline-block;
+    float: right;
+}
+
+.container-language-item a
+{
+    padding-left: 35px;
+}
+
+.container-language-item .english-icon
+{
+    background-image: url('../../image/eng_icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.container-language-item .russian-icon
+{
+    background-image: url('../../image/rus_icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
