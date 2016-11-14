@@ -91,22 +91,22 @@
 		<div class="container">
 		<h1><?php the_field( 'f2', $theID ); ?></h1>
 			<div class="content">
-				<?php $f4 = get_field( 'f4', $theID ); ?>
 				<h3><?php the_field( 'f3', $theID ); ?></h3>
+				<?php $f4 = get_field( 'f4', $theID ); ?>
 				<ol>
-				<li>
-					<h2><?php echo $f4[0]['f4_2']; ?></h2>
-					<h3><?php echo $f4[0]['f4_3']; ?></h3>
-				</li>
-				<li>
-					<h2><?php echo $f4[1]['f4_2']; ?></h2>
-					<h3><?php echo $f4[1]['f4_3']; ?></h3>
-				</li>
-				<li>
-					<h2><?php echo $f4[2]['f4_2']; ?></h2>
-					<h3><?php echo $f4[2]['f4_3']; ?></h3>
-				</li>
-			</ol>
+					<li>
+						<h2><?php echo $f4[0]['f4_2']; ?></h2>
+						<h3><?php echo $f4[0]['f4_3']; ?></h3>
+					</li>
+					<li>
+						<h2><?php echo $f4[1]['f4_2']; ?></h2>
+						<h3><?php echo $f4[1]['f4_3']; ?></h3>
+					</li>
+					<li>
+						<h2><?php echo $f4[2]['f4_2']; ?></h2>
+						<h3><?php echo $f4[2]['f4_3']; ?></h3>
+					</li>
+				</ol>
 			<a href="#" class="get-started-button"><?php the_field( 'f5', $theID ); ?></a>
 			</div>
 		</div>
@@ -149,19 +149,20 @@
 	</section>
 	<section class="only-here">
 		<div class="container">
-			<h1>Только у нас</h1>
+			<h1><?php the_field( 'f10', $theID ); ?></h1>
+			<?php $f11 = get_field( 'f11', $theID ); ?>
 			<ol>
 				<li>
-					<h2>Автоматизация</h2>
-					<h3>Установить приложение и нажать кнопку - это всё, что Вам нужно.</h3>
+					<h2><?php echo $f11[0]['f11_1']; ?></h2>
+					<h3><?php echo $f11[0]['f11_2']; ?></h3>
 				</li>
 				<li>
-					<h2>Живой трафик</h2>
-					<h3>Каждый день наше сообщество становится всё больше и больше!</h3>
+					<h2><?php echo $f11[1]['f11_1']; ?></h2>
+					<h3><?php echo $f11[1]['f11_2']; ?></h3>
 				</li>
 				<li>
-					<h2>Free-to-use</h2>
-					<h3>Заказывай столько подписчиков, сколько Вы сможете себе позволить</h3>
+					<h2><?php echo $f11[2]['f11_1']; ?></h2>
+					<h3><?php echo $f11[2]['f11_2']; ?></h3>
 				</li>
 			</ol>
 		</div>
@@ -169,103 +170,106 @@
 	<section class="insta-boots">
 		<div class="container">
 			<div class="content">
-				<h1>InstaBoots</h1>
-				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur velit aperiam officiis saepe inventore molestiae dolor reprehenderit minus libero iure tempore eius itaque ut, minima nihil alias assumenda cum, error.
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eligendi totam tempore soluta quia, unde similique quibusdam animi quis odio, dolor tenetur quisquam dicta expedita, pariatur itaque nisi modi voluptas.</h3>
-				<a href="#" class="get-started-button apple-icon">Скачать для iOS</a>
-				<a href="#" class="get-started-button android-icon">Скачать для Anroid</a>
+				<h1><?php the_field( 'f12', $theID ); ?></h1>
+				<h3><?php the_field( 'f13', $theID ); ?></h3>
+				<?php $f14 = get_field( 'f14', $theID ); ?>
+				<a href="<?php echo $f14[0]['f14_2']; ?>" class="get-started-button apple-icon"><?php echo $f14[0]['f14_1']; ?></a>
+				<a href="<?php echo $f14[1]['f14_2']; ?>" class="get-started-button android-icon"><?php echo $f14[1]['f14_1']; ?></a>
 			</div>
 		</div>
 	</section>
 	<section class="statistic">
 		<div class="container">
-			<h1>Цифры дня нашего сервиса</h1>
+			<h1><?php the_field( 'f15', $theID ); ?></h1>
+			<?php $f16 = get_field( 'f16', $theID ); ?>
 			<ol>
 				<li>
-					<span class="number">64,201</span>
-					<p>Лайков сделано</p>
+					<span class="number"><?php echo $f16[0]['f16_1']; ?></span>
+					<p><?php echo $f16[0]['f16_2']; ?></p>
 				</li>
 				<li>
-					<span class="number">21,031</span>
-					<p>Обменов подписками</p>
+					<span class="number"><?php echo $f16[1]['f16_1']; ?></span>
+					<p><?php echo $f16[1]['f16_2']; ?></p>
 				</li>
 				<li>
-					<span class="number">35,129</span>
-					<p>Новых пользователей</p>
+					<span class="number"><?php echo $f16[2]['f16_1']; ?></span>
+					<p><?php echo $f16[2]['f16_2']; ?></p>
 				</li>
 			</ol>
 		</div>
 		<a href="#" class="get-started-button">
-			Начать пользоваться
+			<?php the_field( 'f17', $theID ); ?>
 		</a>
 	</section>
 	<section class="seotext">
-		<h1>Начните свой путь к популярности!</h1>
-		<h2>Вы хотите стать популярным свой аккаунт в инстаграм? Вам нужны новые подписчики и лайки на Ваших фото? Тогда Вы нашли то, что искали!</h2>
+		<?php the_field( 'f18', $theID ); ?>
+		<?php $f19 = get_field( 'f19', $theID ); ?>
 		<div class="container">
 			<div class="row">
-				<p class="description"><span >King of Likes - уникальная бесплатная автоматическая накрутка для инстаграм. Каждый день Вы будете видеть новых и новых подписчиков и лайки под Вашими записями. Всё, что Вам нужно для работы с нашим сервисом - это скачать приложение и нажать кнопку "СТАРТ", Остальное мы сделаем за Вас!
-				</span></p>
-				<img src="<?php echo $root . "/"; ?>image/capturePhone.jpg" alt="capturePhone">
+				<p class="description"><span><?php echo pDel( $f19[0]['f19_1'] ); ?></span></p>
+				<img src="<?php echo $f19[0]['f19_2']; ?>" alt="capturePhone">
 			</div>
 			<div class="row">
-				<img src="<?php echo $root . "/"; ?>image/phoneInJeans.jpg" alt="phoneInJeans">
-				<p class="description"><span>Качай наше приложение, авторизируйся через Instagram, приводи друзей, собирай бонусыи выполняй ежедневное задание, заказывай подписчиков и наслаждайся! Всё остальное мы сделаем за Вас</span>
+				<img src="<?php echo $f19[1]['f19_2']; ?>" alt="phoneInJeans">
+				<p class="description"><span><?php echo pDel( $f19[1]['f19_1'] ); ?></span>
 				</p>
 			</div>
 			<div class="row">
-				<p class="description"><span>Добро пожаловать на официальную страницу King of Likes - накрутка лайков в инстаграме, накрутка подписчиков в инстаграме.</span>
+				<p class="description"><span><?php echo pDel( $f19[2]['f19_1'] ); ?></span>
 				</p>
-				<img src="<?php echo $root . "/"; ?>image/welcome.jpg" alt="welcome">
+				<img src="<?php echo $f19[2]['f19_2']; ?>" alt="welcome">
 			</div>
 		</div>
 	</section>
-	<footer>
-		<div class="container">
-			<div class="wrapper-row">
-				<div class="keywords-container">
-					<h3>Keywords</h3>
-					<p class="keywords">Накрутка лайков в инстаграм</p>
-					<p class="keywords">Накрутка лайков в инстаграме</p>
-					<p class="keywords">Накрутка лайков в инстаграм бесплатно</p>
-					<p class="keywords">Накрутка подписчиков в инстаграме</p>
-					<p class="keywords">Накрутка подписчиков в инстаграм</p>
-					<p class="keywords">Продвижение в инстаграм</p>
-					<p class="keywords">Обмен лайками</p>
-					<p class="keywords">Бесплатные лайки</p>
-					<p class="keywords">Накрутка подписчиков бесплатно</p>
+	<?php if( get_field( 'if_footer', $theID ) == "on" ) { ?>
+		<footer>
+			<div class="container">
+				<div class="wrapper-row">
+					<div class="keywords-container">
+						<h3>Keywords</h3>
+						<?php $keywords = get_field( 'keywords', $theID ); ?>
+						<?php foreach ($keywords as $key) {
+							echo "<p class='keywords'>{$key[key]}</p>";
+						} ?>
+					</div>
+					<div class="links">
+						<h3>Links</h3>
+						<?php $links = get_field( 'links', $theID ); ?>
+						<?php foreach ($links as $link) {
+							echo "<a href='{$link[link]}'>{$link[name]}</a>";
+						} ?>
+					</div>
+					<div class="social">
+						<h3>Social</h3>
+						<?php $socials = get_field( 'social', $theID ); ?>
+						<?php $class = array(
+							'1' => 'vkontakte',
+							'2' => 'facebook',
+							'3' => 'twitter'
+						); ?>
+						<?php foreach ($socials as $social) { $i++;
+							echo "<a class='{$class[$i]}' href='{$social[link]}'>{$social[name]}</a>";
+						} ?>
+					</div>
 				</div>
-				<div class="links">
-					<h3>Links</h3>
-					<a href="#">Главная</a>
-					<a href="#">Про нас</a>
-					<a href="#">Блог</a>
-					<a href="#">Бизнес</a>
-				</div>
-				<div class="social">
-					<h3>Social</h3>
-					<a href="#" class="vkontakte">vk.com/ourApp&Site</a>
-					<a href="#" class="facebook">facebook.com/ourApp&Site</a>
-					<a href="#" class="twitter">twitter.com/ourApp&Site</a>
-				</div>
-			</div>
-			<div class="wrapper-row">
-				<div class="container-language-rights">
-					<p class="logo">© 2016 All right reserved</p>
-					<div class="container-language-item">
-					<!-- В зависимости от страницы добавлять клас active -->
-						<a href="/<?php echo $current_slug; ?>" class="hidden <?php echo $current_slug == "en"? "english": "russian"; ?>-icon language-link"><?php echo $current_name; ?></a>
-						<a href="/<?php echo $other_slug; ?>" class="active <?php echo $current_slug != "en"? "english": "russian"; ?>-icon language-link"><?php echo $other_name; ?></a>
+				<div class="wrapper-row">
+					<div class="container-language-rights">
+						<p class="logo"><?php the_field( 'copyright', $theID ); ?></p>
+						<div class="container-language-item">
+						<!-- В зависимости от страницы добавлять клас active -->
+							<a href="/<?php echo $current_slug; ?>" class="hidden <?php echo $current_slug == "en"? "english": "russian"; ?>-icon language-link"><?php echo $current_name; ?></a>
+							<a href="/<?php echo $other_slug; ?>" class="active <?php echo $current_slug != "en"? "english": "russian"; ?>-icon language-link"><?php echo $other_name; ?></a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
+		</footer>
+	<?php } ?>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 	<script src="<?php echo $root . "/"; ?>js/desktop/popup.js"></script>
 	<script src="<?php echo $root . "/"; ?>js/desktop/appearance-button-go-top.js"></script>
 	<script src="<?php echo $root . "/"; ?>js/desktop/smooth-scrolling.js"></script>
 	<script src="<?php echo $root . "/"; ?>js/desktop/changeFixedHeader.js"></script>
-	<?php wp_footer(); ?> 
+	<?php wp_footer(); ?>
 </body>
 </html>

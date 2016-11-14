@@ -1,0 +1,48 @@
+.top-panel
+{
+    background-image: url('../../image/main-blog-page-background.jpg');
+}
+
+
+aside .banner
+{
+    position: relative;
+
+    height: 450px;
+
+    background: url(../../image/Rectangle-banana.png);
+}
+
+.banner .button-download
+{
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    left: 0;
+
+    width: 50%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+article a
+{
+    line-height: 1.33em;
+
+    text-decoration: underline;
+}
+
+.data:first-child
+{
+    margin: 24px 0;
+}
+
+.data
+{
+    margin: 12px 0;
+}
+
+.blog-title
+{
+    line-height: 2em;
+}

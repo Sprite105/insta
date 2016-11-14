@@ -1,0 +1,438 @@
+.top-panel
+{
+    padding-top: 90px;
+    padding-right: 12px;
+    padding-bottom: 0;
+    padding-left: 12px;
+
+    text-align: center;
+
+    color: #fff;
+    background-image: url('../../image/main-2-banner-backgroung.jpg');
+}
+
+
+.top-panel h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25em;
+    font-weight: 400;
+    line-height: 1.2;
+
+    margin-bottom: 35px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+
+.top-panel h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+
+    color: #fff;
+}
+
+.top-panel h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.67em;
+}
+
+
+ol
+{
+    margin-top: 45px;
+}
+
+ol > li
+{
+    display: inline-block;
+
+    width: 100%;
+    padding-top: 70px;
+
+    vertical-align: top;
+
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.top-panel ol > li:nth-child(1)
+{
+    background-image: url('../../image/arrow.png');
+}
+
+
+.top-panel .get-started-button
+{
+    margin: 40px auto;
+}
+
+.container
+{
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.our-advantages
+{
+    text-align: center;
+
+    color: rgb(163, 164, 167);
+}
+
+.our-advantages .container
+{
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.our-advantages h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+
+.our-advantages ol > li
+{
+    font-size: 16px;
+
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    padding-top: 45px;
+
+    vertical-align: top;
+}
+
+.our-advantages ol h2
+{
+    font-size: 1.5em;    
+    margin-bottom: 15px;
+
+    color: rgb(35, 39, 47);
+}
+
+.our-advantages ol h3
+{
+    line-height: 1.2em;
+}
+
+.container > h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.65em;
+    font-weight: 200;
+
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+.our-advantages ol > li:nth-child(1)
+{
+    background-image: url('../../image/resourse.png');
+}
+.our-advantages ol > li:nth-child(2)
+{
+    background-image: url('../../image/diamond.png');
+}
+.our-advantages ol > li:nth-child(3)
+{
+    background-image: url('../../image/bonus.png');
+}
+.our-advantages ol > li:nth-child(4)
+{
+    background-image: url('../../image/heart.png');
+}
+.our-advantages ol > li:nth-child(5)
+{
+    background-image: url('../../image/adaptive.png');
+}
+.our-advantages ol > li:nth-child(6)
+{
+    background-image: url('../../image/add-friend.png');
+}
+
+
+
+
+.answerToUser
+{
+    padding: 40px 0;
+
+    text-align: center;
+
+    background-image: url('../../image/answerToUser-background.jpg');
+    background-repeat: no-repeat;
+    background-position: 73%;
+    background-size: cover;
+}
+
+.answerToUser .container
+{
+    max-width: 245px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.answerToUser h1
+{
+    font-size: 1.875em;
+
+    margin: 0;
+    margin-bottom: 40px;
+
+    color: #fff;
+}
+
+
+
+.answerToUser .get-started-button
+{
+    line-height: 45px;
+
+    display: block;
+
+    max-width: 245px;
+    margin: 0 auto;
+}
+
+
+
+.only-here
+{
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    color: rgb(163, 164, 167);
+}
+
+.only-here h1
+{
+    margin-bottom: 50px;
+}
+
+.only-here h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 70px;
+
+    color: #000;
+}
+
+.only-here h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 1.2em;
+
+    color: rgb(87, 87, 87);
+}
+
+
+.only-here ol > li
+{
+    display: block;
+
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    padding-right: 7%;
+    padding-left: 7%;
+
+    vertical-align: top;
+}
+
+
+.only-here ol > li:nth-child(1)
+{
+    background-image: url('../../image/free.png');
+}
+
+.only-here ol > li:nth-child(2)
+{
+    background-image: url('../../image/traffic.png');
+}
+
+.only-here ol > li:nth-child(3)
+{
+    background-image: url('../../image/automation.png');
+}
+
+
+.only-here .container
+{
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+
+
+.insta-boots
+{
+    padding-top: 40px;
+    padding-bottom: 45px;
+
+    text-align: left;
+
+    color: #fff;
+    background-image: url('../../image/instaboots-mobile-background.jpg');
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: cover;
+}
+
+.insta-boots .container
+{
+    max-width: 1280px;
+}
+
+.insta-boots h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875em;
+    font-weight: 400;
+
+    margin-left: -2px;  /* сдвиг первого абзаца относительно второго происходит 
+                        через разницу размеров текста*/
+
+    text-align: left;
+
+    color: #fff;
+}
+
+.insta-boots h3
+{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1.2em;
+    font-weight: 200;
+    line-height: 1.5em;
+
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+
+.insta-boots .get-started-button
+{
+    font-family: 'MyriadProRegular', sans-serif;
+    line-height: 50px;
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 320px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 60px;
+
+    border-radius: 0;
+}
+
+.apple-icon
+{
+    background-image: url('../../image/apple-icon.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 22px auto;
+}
+
+.android-icon
+{
+    background-image: url('../../image/android-icon.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 22px auto;
+}
+
+.statistic
+{
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: rgb(163, 164, 167);
+    background-image: url('../../image/statistic-mobile-background.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 125% 87%;
+}
+
+
+.statistic .container
+{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0;
+
+    background-color: #fff;
+    box-shadow: 20px 20px 10px rgba(0,0,0, .2);
+}
+
+.statistic .container h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.2;
+
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+
+
+.statistic .number
+{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 4.375em;
+    font-weight: 200;
+    line-height: 1.5em;
+
+    color: #fc5a01;
+}
+
+
+.statistic li
+{
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.statistic li > p
+{
+    font-size: 1.45em;
+}
+
+
+.statistic ol
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    margin: 0;
+
+    color: rgb(163, 164, 167);
+}
+
+.statistic .get-started-button
+{
+    font-size: 1.25em;
+    line-height: 63px;
+
+    display: block;
+
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 75px;
+
+    text-align: center;
+}

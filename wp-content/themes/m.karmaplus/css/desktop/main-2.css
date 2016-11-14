@@ -1,0 +1,620 @@
+.banner
+{
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-image: url('../../image/main-2-banner-backgroung.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner  nav
+{
+    position: static;
+
+    display: inline-block;
+
+    max-width: 50%;
+}
+
+.banner  nav > a
+{
+    margin-right: 30px;
+}
+
+.banner  header
+{
+    background-color: rgba(0,0,0, .08);
+
+    line-height: 100px;
+
+    text-align: right;
+}
+
+.container .content
+{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+ol
+{
+    margin-top: 70px;
+
+    text-align: center;
+}
+
+ol > li
+{
+    display: inline-block;
+
+    width: 32%;
+    padding-top: 70px;
+
+    vertical-align: top;
+
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.banner ol > li:nth-child(1)
+{
+    background-image: url('../../image/star.png');
+}
+
+.banner ol > li:nth-child(2)
+{
+    background-image: url('../../image/crown.png');
+}
+
+.banner ol > li:nth-child(3)
+{
+    background-image: url('../../image/arrow.png');
+}
+
+
+.container > h1
+{
+    margin-top: 115px;
+    margin-bottom: 35px;
+}
+
+.content > h3
+{
+    margin-bottom: 35px;
+}
+
+.banner h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25em;
+    font-weight: 400;
+
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.banner h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+
+    color: #fff;
+}
+
+.banner h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+.banner .content .get-started-button
+{
+    display: block;
+
+    margin-top: 65px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.our-advantages
+{
+    text-align: center;
+
+    color: rgb(163, 164, 167);
+}
+
+.our-advantages h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.our-advantages ol > li
+{
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    padding-top: 45px;
+    padding-right: 7%;
+    padding-left: 7%;
+
+    vertical-align: top;
+}
+
+.our-advantages ol > li:nth-child(1)
+{
+    background-image: url('../../image/resourse.png');
+}
+.our-advantages ol > li:nth-child(2)
+{
+    background-image: url('../../image/diamond.png');
+}
+.our-advantages ol > li:nth-child(3)
+{
+    background-image: url('../../image/bonus.png');
+}
+.our-advantages ol > li:nth-child(4)
+{
+    background-image: url('../../image/heart.png');
+}
+.our-advantages ol > li:nth-child(5)
+{
+    background-image: url('../../image/adaptive.png');
+}
+.our-advantages ol > li:nth-child(6)
+{
+    background-image: url('../../image/add-friend.png');
+}
+
+.answerToUser
+{
+    padding: 40px 0;
+
+    text-align: center;
+
+    background-image: url('../../image/answerToUser-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.answerToUser h1
+{
+    font-size: 2.5em;
+
+    margin-bottom: 40px;
+
+    color: #fff;
+}
+
+
+.answerToUser .get-started-button
+{
+    line-height: 45px;
+
+    display: block;
+
+    max-width: 245px;
+    margin: 0 auto;
+}
+
+.only-here
+{
+    margin-bottom: 30px;
+
+    color: rgb(163, 164, 167);
+}
+
+.only-here h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.only-here h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.only-here ol > li
+{
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 7%;
+    padding-left: 7%;
+    
+    vertical-align: top;
+}
+
+.only-here ol > li:nth-child(1)
+{
+    background-image: url('../../image/automation.png');
+}
+
+.only-here ol > li:nth-child(2)
+{
+    background-image: url('../../image/traffic.png');
+}
+
+.only-here ol > li:nth-child(3)
+{
+    background-image: url('../../image/free.png');
+}
+
+.insta-boots
+{
+    text-align: left;
+
+    color: #fff;
+    background-image: url('../../image/instaboots-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.insta-boots .container
+{
+    max-width: 1280px;
+}
+
+.insta-boots .content
+{
+    float: right;
+
+    width: 48.82%;
+    max-width: 625px;
+    margin-top: 130px;
+    margin-bottom: 195px;
+
+    text-align: left;
+}
+
+.insta-boots h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    margin-left: -2px;  /* сдвиг первого абзаца относительно второго происходит 
+                        через разницу размеров текста*/
+
+    text-align: left;
+
+    color: #fff;
+}
+
+.insta-boots h3
+{
+    font-family: 'Proximanova Light', sans-serif;
+    line-height: 1.5em;
+
+    margin-top: 16px;
+}
+
+
+.insta-boots .get-started-button
+{
+    font-family: 'MyriadProRegular', sans-serif;
+    line-height: 50px;
+
+    float: left;
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 245px;
+    margin: 0;
+    margin-right: 22px;
+    padding-left: 60px;
+
+    letter-spacing: 1px;
+
+    border-radius: 0;
+}
+
+.apple-icon
+{
+    background-image: url('../../image/apple-icon.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 22px auto;
+}
+
+.android-icon
+{
+    background-image: url('../../image/android-icon.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 22px auto;
+}
+
+.statistic
+{
+    margin: 0 auto;
+
+    background-image: url('../../image/statistic-background.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 78%;
+}
+
+
+.statistic .container
+{
+    background-color: #fff;
+    box-shadow: 20px 20px 10px rgba(0,0,0, .2);
+}
+
+.statistic .container h1
+{
+    font-size: 2em;
+}
+
+
+
+.statistic .number
+{
+    font-family: 'Proximanova Light', sans-serif;
+    font-size: 4.5em;
+    line-height: 1.5em;
+
+    color: #fc5a01;
+}
+
+.statistic li > p
+{
+    font-size: 1.5em;
+}
+
+
+.statistic ol
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    margin: 0;
+    margin-bottom: 150px;
+
+    color: rgb(163, 164, 167);
+}
+
+.statistic .get-started-button
+{
+    line-height: 63px;
+
+    display: block;
+
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 140px;
+
+    text-align: center;
+}
+
+.seotext
+{
+    padding-bottom: 170px;
+}
+
+.seotext h1 {
+    font-size: 2.25em;
+    color: #000;
+    line-height: 60px;
+}
+.seotext h2
+{
+    color: rgb(135, 135, 135);
+    font-size: 1.5em;
+    font-weight: 400;
+    max-width: 875px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    line-height: 30px;
+}
+
+.seotext,
+.seotext .container
+{
+    overflow: visible;
+    margin-top: 90px;
+}
+
+.seotext .row
+{
+    display: table;
+
+    height: 500px;
+}
+
+.seotext .row:after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+.seotext .row img
+{
+    float: left;
+    max-width: none;
+    width: 500px;
+
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+}
+
+.seotext .row .description
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5;
+
+    display: table-cell;
+
+    box-sizing: border-box;
+    width: calc(100% - 500px);
+    padding-right: 150px;
+
+    vertical-align: middle;
+
+    color: rgb(109, 109, 109);
+}
+
+
+.seotext .row:nth-child(odd) img,
+.seotext .row:nth-child(even) .description
+{
+    float: right;
+
+    padding-right: 0;
+
+    text-align: right;
+}
+
+.seotext .row:nth-child(even) .description
+{
+    float: none;
+
+    padding-right: 0;
+    padding-left: 70px;
+}
+
+.popup {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99999999;
+    overflow: hidden;
+    background-color: rgba(0,0,0, .5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.hide {
+    display: none;
+}
+
+.popup .content {
+    position: absolute;
+    max-width: 845px;
+    max-height: 580px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.popup .tariff {
+    display: inline-block;
+    width: 30%;
+    background-color: #fff;
+    max-width: 270px;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-right: 17px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.tariff .title {
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.tariff:nth-child(1) .title, .tariff:nth-child(1) .button {
+    background-color: #2fb86a;
+}
+
+.tariff:nth-child(2) .title, .tariff:nth-child(2) .button {
+    background-color: #008ee4;
+}
+
+.tariff:nth-child(3) .title, .tariff:nth-child(3) .button {
+    background-color: #fd3d59;
+}
+
+.tariff h1, .tariff h2, .tariff h3 {
+    color: #fff;
+}
+
+.tariff h1 {
+    margin-bottom: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 2.25em;
+    text-transform: uppercase;
+}
+
+.tariff h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 1em;
+}
+
+
+.tariff ul {
+    text-align: left;
+    padding: 0 30px;
+    padding-top: 55px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+.tariff ul > li {
+    padding-left: 30px;
+    line-height: 40px;
+    background-image: url('../../image/tick.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    border-top: #f0f0f0 1px solid;
+}
+
+.tariff ul > li:last-child {
+    border-bottom: #f0f0f0 1px solid;
+}
+
+
+.tariff .discription {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    color: #c1c1c1; 
+}
+
+.tariff .button {
+    display: block;
+    max-width: 160px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+}
+
+.tariff .button:hover {
+    text-decoration: none;
+}
+
+
